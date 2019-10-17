@@ -13,6 +13,7 @@
 
 // this turns our string into an array by spliting it then and then reduces the charachters 
 function reverse(str) {
+    debugger;
     return str.split('').reduce((reversed, character)=>{
         return character + reversed; 
 
