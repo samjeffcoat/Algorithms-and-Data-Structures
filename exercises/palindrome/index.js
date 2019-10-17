@@ -8,5 +8,5 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) { }
-
+data
 module.exports = palindrome;
