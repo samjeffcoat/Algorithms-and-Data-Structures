@@ -12,3 +12,4 @@ For practice with the Udemy Course "The Coding Interview Bootcamp: Algorithms an
 5. FizzBuzz
 6. chunk
 7. anagrams
+8. capitalize
