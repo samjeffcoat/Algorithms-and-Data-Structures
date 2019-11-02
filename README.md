@@ -13,3 +13,4 @@ For practice with the Udemy Course "The Coding Interview Bootcamp: Algorithms an
 6. chunk
 7. anagrams
 8. capitalize
+9. steps
