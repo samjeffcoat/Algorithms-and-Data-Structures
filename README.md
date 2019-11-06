@@ -14,3 +14,4 @@ For practice with the Udemy Course "The Coding Interview Bootcamp: Algorithms an
 7. anagrams
 8. capitalize
 9. steps
+10. pyramids
