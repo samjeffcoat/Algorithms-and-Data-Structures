@@ -11,31 +11,26 @@
 // join the array back into a string
 // return the result
 
-// this turns our string into an array by spliting it then and then reduces the charachters 
+// this turns our string into an array by spliting it then and then reduces the charachters
 function reverse(str) {
-    debugger;
-    return str.split('').reduce((reversed, character)=>{
-        return character + reversed; 
-
-    });
- }
+  debugger;
+  return str.split('').reduce((reversed, character) => {
+    return character + reversed;
+  });
+}
 
 module.exports = reverse;
 
+function reverse(str) {
+  return str.split(' ').reverse().join(' ');
+}
 
-// function reverse(str) {
-//     return str.split(' ').reverse().join(' ');
+function reverse(str) {
+  let reversed = ' ';
 
+  for (let character of str) {
+    reversed = character + reversed;
+  }
 
-// }
-
-// function reverse(str) {
-//     let reversed = ' ';
-
-//     for (let character of str) {
-//         reversed = character + reversed;
-
-//     }
-
-//     return reversed;
-// }
+  return reversed;
+}
